@@ -43,7 +43,6 @@ public class TestDatabaseActivity extends ListActivity {
                 int nextInt = new Random().nextInt(3);
                 // save the new comment to the database
                 EditText rating = (EditText) findViewById(R.id.editTextRating);
-
                 comment = datasource.createComment(comments[nextInt], rating.getText().toString());
                 adapter.add(comment);
                 break;

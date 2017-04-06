@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">de.vogella.android.sqlite.first</string>
+    <string name="_3">3</string>
+    <string name="add_new">Add New</string>
+    <string name="delete_first">Delete First</string>
+    <string name="enter_a_rating_from_1_to_5">Enter a rating from 1 to 5.</string>
 </resources>
